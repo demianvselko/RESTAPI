@@ -1,0 +1,29 @@
+{
+    "name": "RESTAPI",
+    "version": "1.0.0",
+    "description": "REST API usando Nodejs, Express y lowdb.",
+    "main": "index.js",
+    "scripts": {
+        "dev": "nodemon src/index.js --ignore db.json"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/demianvselko/RESTAPI.git"
+    },
+    "keywords": [],
+    "author": "Demian Vselko",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/demianvselko/RESTAPI/issues"
+    },
+    "homepage": "https://github.com/demianvselko/RESTAPI#readme",
+    "dependencies": {
+        "express": "^4.17.1",
+        "lowdb": "^1.0.0",
+        "morgan": "^1.10.0",
+        "uuid": "^8.3.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.4"
+    }
+}
